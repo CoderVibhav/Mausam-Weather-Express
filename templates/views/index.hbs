@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>header}}
+</head>
+<body>
+  {{>navbar}}
+        <div class="container">
+      <div class="row parent_row">
+        <div class="col-12 col-md-7 left_side">
+          <h1 style="margin-bottom: 1rem">Welcome To <span class="badge bg-info">Mausam</span></h1>
+          <h3 style="margin-bottom: 2rem">
+            Get The Latest Weather Info Of Your City
+          </h3>
+          <button type="button" class="btn btn-warning"><a href="/weather">Click Here</a></button>
+        </div>
+        <div class="col-12 col-md-5 right_side">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img1.svg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img2.svg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img3.svg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{>footer}}
+</body>
+</html>
+

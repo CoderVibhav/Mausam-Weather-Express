@@ -1,0 +1,18 @@
+{
+  "name": "webdevgithubprojects",
+  "version": "1.0.0",
+  "description": "first project in express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "author": "Vibhav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.16",
+    "requests": "^0.3.0"
+  }
+}
